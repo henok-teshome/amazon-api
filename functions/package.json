@@ -1,26 +1,20 @@
 {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
+  "name": "amazon-api",
+  "version": "1.0.0",
+  "description": "",
   "scripts": {
-    "lint": "eslint .",
-    "serve": "firebase emulators:start --only functions",
-    "shell": "firebase functions:shell",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
+    "build": "echo \"No build specified\" && exit 1",
+    "test": "echo \"No test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "engines": {
-    "node": "18"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henok206/amazon-api.git"
   },
-  "main": "index.js",
-  "dependencies": {
-    "firebase-admin": "^11.8.0",
-    "firebase-functions": "^4.3.1"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henok206/amazon-api/issues"
   },
-  "devDependencies": {
-    "eslint": "^8.15.0",
-    "eslint-config-google": "^0.14.0",
-    "firebase-functions-test": "^3.1.0"
-  },
-  "private": true
+  "homepage": "https://github.com/henok206/amazon-api#readme"
 }
